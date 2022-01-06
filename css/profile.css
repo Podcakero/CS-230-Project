@@ -1,0 +1,50 @@
+.center-me
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#prof-display
+{
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+#uname-style
+{
+    font-size: 20px;
+    font-family: "Lucida ", Courier, monospace;
+    font-weight: bold;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  
+  }
+
+.columnM {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.test {
+    border: 5px outset red;
+    background-color: lightblue;
+}
+
+p {
+    font-size: 120%;
+}

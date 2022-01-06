@@ -1,0 +1,65 @@
+body {
+   background-color: #eee
+}
+
+label.radio {
+   cursor: pointer
+}
+
+label.radio input {
+   position: absolute;
+   top: 0;
+   left: 0;
+   visibility: hidden;
+   pointer-events:visible
+}
+
+label.radio span {
+   padding: 4px 0px;
+  
+   display: inline-block;
+   color: teal;
+   width: 200px;
+   text-align: center;
+   border-radius: 3px;
+   margin-top: 7px;
+   
+}
+.radio:active {
+   outline: 0 !important;
+   box-shadow: none !important
+}
+
+label.radio input:checked+span {
+   border-color: rgb(61, 61, 216);
+   background-color: rgb(61,61,216);
+   color: #fff
+}
+
+.ans {
+   margin-left: 36px !important
+}
+.btn:hover {
+   background-color: rgba(52, 152, 219,0.6);
+ }
+ 
+ .btn:focus {
+   background-color: rgba(52, 152, 219,0.6);
+ }
+ 
+ .btn:active, .btn:visited {
+   background-color: rgba(52, 152, 219,0.6);
+ }
+ 
+ .active {
+   background-color: rgba(52, 152, 219,0.6); 
+ }
+ .selected{
+    background-color: chartreuse;
+ }
+ .hide{
+display:none
+ }
+ .show{
+    display:ruby-base-container
+ }
